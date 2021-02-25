@@ -1,4 +1,9 @@
 funtion Cat (){
-	
+	this.stomach = [];
 }
-module.exports = Cat
+
+Cat.prototype.eat = funtion(mouse) {
+	this.stomach.push(mouse);
+}
+
+module.exports = Cat;
